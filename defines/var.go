@@ -1,0 +1,19 @@
+package defines
+
+var CHAIN_CODE_TO_NAME = map[uint8]string{
+	CHAIN_CODE_BTC: CHAIN_BTC,
+	CHAIN_CODE_BCH: CHAIN_BCH,
+	CHAIN_CODE_ETH: CHAIN_ETH,
+}
+
+var BUSINESS_CODE_TO_NAME = map[uint8]string{
+	BUSINESS_P2P_SWAP: BUSINESS_P2P_SWAP_NAME,
+}
+
+var OFGP_ID = []byte{0x00, 0x66, 0x67, 0x70}
+
+var CONST_OPRETURN = []byte{0x6a, 0x04, 0x00, 0x66, 0x67, 0x70}
+
+var VERSION_00 uint8 = 0x00
+
+var DEFAULT_VERSION uint8 = VERSION_00
