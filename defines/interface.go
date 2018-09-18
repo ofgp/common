@@ -8,7 +8,7 @@ type PushEvent interface {
 	GetTranxIx() int
 	GetAmount() uint64
 	GetFee() uint64
-	GetFrom() uint32
-	GetTo() uint32
+	GetFrom() byte
+	GetTo() byte
 	GetData() []byte
 }

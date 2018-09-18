@@ -19,9 +19,9 @@ const (
 )
 
 const (
-	CHAIN_BTC = "btc"
-	CHAIN_BCH = "bch"
-	CHAIN_ETH = "eth"
+	CHAIN_NAME_BTC = "btc"
+	CHAIN_NAME_BCH = "bch"
+	CHAIN_NAME_ETH = "eth"
 
 	BUSINESS_P2P_SWAP_NAME = "p2p"
 )
