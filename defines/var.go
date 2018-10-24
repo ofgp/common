@@ -15,6 +15,4 @@ var OFGP_ID = []byte{0x00, 0x66, 0x67, 0x70}
 
 var CONST_OPRETURN = []byte{0x6a, 0x04, 0x00, 0x66, 0x67, 0x70}
 
-var VERSION_00 uint8 = 0x00
-
-var DEFAULT_VERSION uint8 = VERSION_00
+var DEFAULT_VERSION = VERSION_01

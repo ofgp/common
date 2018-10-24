@@ -1,7 +1,7 @@
 package defines
 
 type PushEvent interface {
-	GetBusiness() string
+	GetBusiness() uint8
 	GetEventType() uint32
 	GetProposal() string
 	GetTxID() string

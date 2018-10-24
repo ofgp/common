@@ -4,6 +4,7 @@ const (
 	BUSINESS_UNKNOWN uint8 = iota
 	BUSINESS_P2P_SWAP
 	BUSINESS_COIN_MINT
+	BUSINESS_BLOCK_PUSH_DONE
 )
 
 const (
@@ -12,6 +13,7 @@ const (
 	EVENT_P2P_SWAP_CONFIRM
 	EVENT_COIN_MINT_REQUIRE
 	EVENT_COIN_MINT_CONFIRM
+	EVENT_BLOCK_PUSH_DONE
 )
 
 const (
@@ -19,6 +21,23 @@ const (
 	CHAIN_CODE_BTC
 	CHAIN_CODE_BCH
 	CHAIN_CODE_ETH
+)
+
+type VersionType uint8
+
+const (
+	VERSION_00 VersionType = iota
+	VERSION_01
+)
+
+const (
+	SOME_FLAG_UNKNOWN uint32 = iota
+	MINT_TX_FLAG
+	BURN_TX_FLAG
+)
+
+const (
+	BT_TOKEN_00 uint32 = iota // bch or btc
 )
 
 const (
